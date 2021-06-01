@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+.div-inputBinary{
+    grid-area: inputBinary;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-inputBinary > label > h1{
+    margin: 0px;
+    margin-top: 5px;
+    font-size: 3em;
+    font-family: 'fontTitulo';
+    letter-spacing: 10px;
+    color: #8C5A4F;
+}
+
+.inputBinary::-webkit-inner-spin-button { 
+    -webkit-appearance: none;   
+}
+
+.inputBinary{
+    -moz-appearance: textfield;
+    appearance: textfield;
+    width: 90%;
+    height: 60px;
+    margin: 0px;
+    text-align: center;
+    font-size: 2rem;
+    color: #8C5A4F;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #8C5A4F;
+    outline: none;
+}
+
+.div-showDecimal {
+    grid-area: showBinary;
+}
+
+.div-showDecimal > .showDecimal{
+    font-size: 3rem;
+    text-align: center;
+    width: 100%;
+    word-break: break-all;
+    color: #8C5A4F;
+}
